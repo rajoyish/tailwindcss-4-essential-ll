@@ -8,17 +8,29 @@
       href="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Utility-first Approach</title>
+    <title>Connect Card</title>
   </head>
   <body>
-    <!-- <div class="bg-indigo-500 w-75">
-      <img class="size-16 object-cover rounded-full border border-white" src="images/avatar.png" alt="">
-    </div> -->
-    <div class="bg-indigo-500 w-75">
+    <div class="bg-indigo-500 w-75 rounded-lg p-5 m-12 mx-auto">
       <img
-        class="size-16 object-cover rounded-full border border-white"
-        src="https://i.pravatar.cc"
+        class="size-16 -mt-12 object-cover rounded-full border border-white"
+        src="https://i.pravatar.cc?img=41"
+        alt=""
       />
+      <p class="font-medium text-white mt-2">Alina Fallow</p>
+      <p class="text-sm text-indigo-200">Sent you a connection request</p>
+      <div class="mt-4 space-x-1">
+        <button
+          class="px-4 py-2 bg-white text-indigo-600 border border-indigo-500 font-medium text-sm rounded-md"
+        >
+          Accept
+        </button>
+        <button
+          class="px-4 py-2 text-white border border-indigo-300 text-sm rounded-md"
+        >
+          Decline
+        </button>
+      </div>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
